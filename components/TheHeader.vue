@@ -9,12 +9,12 @@
               <span v-on:click="openNav" class="hamburger-menu__icon fas fa-bars"></span>
             </div>
           </div>
-          <div class="col-8">
+          <div class="col-7">
             <div class="logo">
               <img class="logo__img" src="~/assets/images/logo.png" alt="VERMA FARMS">
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-3">
             <div class="bag">
               <img class="bag__icon" src="~/assets/images/svg-gobbler.svg" alt="Bag">
             </div>
