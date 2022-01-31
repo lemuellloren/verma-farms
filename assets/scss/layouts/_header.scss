@@ -1,4 +1,10 @@
 // Header Styles 
+#nav {
+  height: 80px;
+  background-color: transparent;
+  max-height: 80px;
+}
+
 .logo {
   &__img {
     width: 180px;
@@ -19,8 +25,6 @@
 
 .mobile-menu {
   transition: margin-left .5s;
-  position: absolute;
-
   &__row {
     height: 80px;
     max-height: 80px;
@@ -77,5 +81,25 @@
   &__li {
     padding: 10px 0;
     border-bottom: $border;
+  }
+}
+
+
+// *Desktop Menu 
+.desktop-menu {
+  &__ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  &__menus {
+    color: #443636;
+    font-weight: 500;
+    font-size: $body-size;
+    text-decoration: none;
+    display: block;
+    padding: 0.7rem 1rem;
+    position: relative;
+    border-bottom: 2px solid transparent;
   }
 }
