@@ -1,8 +1,12 @@
 // Header Styles 
 #nav {
   height: 80px;
-  background-color: transparent;
+  background-color: yellow;
   max-height: 80px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .logo {

@@ -1,9 +1,7 @@
 <template>
-  <TheHeader></TheHeader>
+  <div>
+    <TheHeader></TheHeader>
+  <HeroBanner></HeroBanner>
+  </div>
 </template>
 
-<script>
-export default {
-  name: 'IndexPage'
-}
-</script>
