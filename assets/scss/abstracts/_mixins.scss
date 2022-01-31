@@ -5,9 +5,22 @@
     @content;
   }
 }
+
 // *Desktop 
 @mixin desktop {
   @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+// *Typography 
+@mixin headings {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @content;
   }
 }
