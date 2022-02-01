@@ -94,7 +94,6 @@
 
 <script>
   export default {
-    el: '#nav',
     methods: {
       openNav: function () {
         document.getElementById('sideBar').style.width = "250px";

@@ -13,14 +13,19 @@
   }
 }
 
-// *Typography 
-@mixin headings {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @content;
-  }
+// *Buttons
+@mixin default-button {
+  color: $light-color;
+  font-size: $body-size;
+  line-height: $line-height;
+  border-radius: $border-radius-btn;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  box-shadow: $box-shadow-btn
+}
+
+@mixin primary-button {
+  @include default-button;
+  background-color: $primary-color;
 }
