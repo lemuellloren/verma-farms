@@ -13,11 +13,3 @@ h6 {
   font-family: $secondary-font-family;
 }
 
-// *Headings 
-.heading-1 {
-  @include heading-1;
-}
-
-.sub-head {
-  @include sub-head;
-}
