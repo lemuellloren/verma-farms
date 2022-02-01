@@ -1,4 +1,5 @@
 .hero-banner {
+    @include middle;
     background-color: #f1d4c0;
     padding-top: 80px;
     height: 90vh;
@@ -11,4 +12,10 @@
              align-items: center;
          }
      }
+     .hero-banner-content {
+         &__title {
+             text-align: center;
+         }
+     }
 }
+

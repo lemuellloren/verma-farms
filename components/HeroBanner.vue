@@ -9,10 +9,10 @@
             </div>
              <div class="col-md-6">
                 <div class="hero-banner-content">
-                    <h1 class="hero-banner-content__title">
+                    <h1 class="hero-banner-content__title heading-1">
                         Pure All Natural CBD Inspired by the Islands of Hawaii
                     </h1>
-                    <p class="hero-banner-content__subhead">
+                    <p class="hero-banner-content__subhead sub-head">
                         ZERO THC - all natural cannabidoil
                     </p>
                     <div class="button-wrapper">

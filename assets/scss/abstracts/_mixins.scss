@@ -13,6 +13,13 @@
   }
 }
 
+// *Flexbox 
+@mixin middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 // *Buttons
 @mixin default-button {
   color: $light-color;
@@ -28,4 +35,34 @@
 @mixin primary-button {
   @include default-button;
   background-color: $primary-color;
+}
+
+// *Typography 
+@mixin header-text {
+  color: $heading-color;
+  line-height: $line-height-heading;
+}
+
+@mixin sub-head {
+  color: $sub-head-color;
+  line-height: $line-height-heading;
+}
+
+@mixin heading-1 {
+  @include header-text;
+  font-size: $header1-size-sm;
+  font-weight: 900;
+
+  @include tablet {
+    font-size: $header1-size-lg;
+  }
+
+  @include desktop {
+    font-size: $header1-size-lg;
+  }
+}
+
+@mixin sub-head {
+  @include sub-head;
+  font-size: $body-size-lg;
 }
