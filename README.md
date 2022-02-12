@@ -1,4 +1,4 @@
-# verma-farms-website
+# Varma Farms
 
 ## Build Setup
 
